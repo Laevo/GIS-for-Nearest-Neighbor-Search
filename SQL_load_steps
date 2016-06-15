@@ -1,0 +1,16 @@
+-- create table cities
+-- (country varchar(10),
+-- city varchar(20),
+-- lat decimal(11, 8),
+-- lng decimal(11, 8));
+
+-- LOAD DATA LOCAL INFILE '/home/laevo/CloudComp/Assign4/worldcitiespop.txt' INTO TABLE cities
+-- FIELDS TERMINATED BY ',' (country, city, @dummy, @dummy, @dummy, lat, lng);
+-- 
+-- truncate table cities;
+-- 
+delete from cities where country='country';
+
+SET SQL_SAFE_UPDATES = 0;
+
+select count(*) from cities;

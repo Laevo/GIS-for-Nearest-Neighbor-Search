@@ -1,0 +1,15 @@
+Make instances for EC2, RDS, Elasticache
+Give all the same security group and add TCP access for all, for local as well as EC2 IP.
+Give proper access to IAM user
+
+
+Install in EC2
+Flask
+Boto
+Mysql client
+redis
+python-mysqldb
+telnet for redis
+
+Connect to mysql from ec2
+Connect to redis by telnet from ec2
